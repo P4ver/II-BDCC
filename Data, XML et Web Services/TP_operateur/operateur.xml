@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE operateur SYSTEM "operateur.dtd">
+            
+<operateur>
+    <client code="1" nom="mohammed">
+        <abonnement num="1234" type="GSM" dateAb="2020-1-11">
+            <facture numFact="1003" dateFact="2022-2-11" montant="150.44" reglee="oui"/>
+            <facture numFact="1044" dateFact="2022-4-13" montant="100.54" reglee="non"/>
+        </abonnement>
+        <abonnement num="2345" type="FIXE" dateAb="2026-12-1">
+            <facture numFact="1050" dateFact="2024-1-12" montant="499" reglee="oui"/>
+            <facture numFact="1063" dateFact="2024-2-12" montant="955" reglee="non"/>
+        </abonnement>
+    </client>
+    <client code="2" nom="hassan">
+        <abonnement num="7543" dateAb="2026-12-1" type="GSM">
+            <facture numFact="1100" dateFact="2024-2-12" montant="550.44" reglee="oui"/>
+            <facture numFact="1119" dateFact="2024-3-12" montant="670" reglee="non"/>
+        </abonnement>
+    </client>
+</operateur>
